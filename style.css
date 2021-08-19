@@ -1,0 +1,16 @@
+body {
+  background: beige;
+}
+
+.container {
+  border: 1px solid black;
+  width: 95%;
+  height: 100vh;
+  display: flex;
+}
+
+.quotes {
+  border: 1px solid black;
+  width: 900px;
+  height: 450px;
+}
