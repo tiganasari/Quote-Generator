@@ -1,16 +1,48 @@
 body {
-  background: beige;
+  background: white;
 }
 
 .container {
-  border: 1px solid black;
   width: 95%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
+  text-align: center;
 }
 
 .quotes {
-  border: 1px solid black;
+  border: 10px solid rgb(157, 204, 182);
   width: 900px;
-  height: 450px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+.btn,
+btn-success {
+  background-color: white;
+  color: black;
+  border: 1px solid darkgrey;
+}
+
+.quotes p,
+h3 {
+  font-size: 1.5rem;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .quotes p,
+  h3 {
+    font-size: 1rem;
+    letter-spacing: 1.4px;
+  }
+
+  .quotes {
+    padding: 0px 20px;
+  }
 }
