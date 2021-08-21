@@ -18,6 +18,7 @@ function generate() {
 
     let quote = quotes[author];
 
+    
     document.getElementById("quote").innerHTML = quote;
     document.getElementById("author").innerHTML = author;
     
